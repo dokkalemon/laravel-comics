@@ -41,6 +41,8 @@ a {
 
 header {
   background-color: #ffffff;
+  position: fixed;
+  top: 0;
 }
 header .header {
   height: 100px;
@@ -88,4 +90,37 @@ header .header nav ul li.active {
 }
 header .header nav ul li.active a {
   color: #0c7cec;
+}
+
+main {
+  height: 2000px;
+  background-color: #1c1c1c;
+  padding-top: 100px;
+}
+main .comics-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 50px;
+}
+main .comics-container .card {
+  width: 16.6666666667%;
+  height: 400px;
+}
+main .comics-container .card .card-container {
+  height: 100%;
+  width: 100%;
+}
+main .comics-container .card .card-container img {
+  height: 180px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+main .comics-container .card .card-container h4 {
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 400;
+  padding-top: 15px;
 }

@@ -18,7 +18,7 @@
 <body>
     <!-- include header -->
     @include('header')
-
+    
     <!-- dinamic parts -->
     @yield('main')
     
