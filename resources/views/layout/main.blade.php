@@ -23,7 +23,7 @@
     @yield('main')
     
     <!--include footer-->
-
+    @include('footer')
 
 
 
