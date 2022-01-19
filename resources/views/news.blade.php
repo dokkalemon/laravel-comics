@@ -1,1 +1,3 @@
-<h1>qui news</h1>
+@extends('layout.main')
+
+@section('main')

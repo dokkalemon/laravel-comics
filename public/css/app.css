@@ -72,7 +72,6 @@ header .header nav ul li {
   margin-right: 40px;
   border-bottom: 4px solid #ffffff;
   cursor: pointer;
-  transition: all 0.2s ease;
 }
 header .header nav ul li a {
   color: #464646;

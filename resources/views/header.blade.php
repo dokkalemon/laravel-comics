@@ -12,8 +12,9 @@
                 >
                     <a href="/">COMICS</a>
                 </li>
-                <li >
-                    @if (Request::route()->getName() === 'news') class="active" @endif
+                <li 
+                @if (Request::route()->getName() === 'news') class="active" @endif
+                >
                     <a href="/news">NEWS</a>
                 </li>
             </ul>
