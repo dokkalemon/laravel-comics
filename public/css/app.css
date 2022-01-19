@@ -9,5 +9,84 @@
 
 /* Utilities */
 body {
-  background-color: #57adeb;
+  background-color: #ffffff;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.container {
+  width: 1270px;
+  margin: 0 auto;
+}
+
+.px-10 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.debug {
+  border: 1px solid red;
+}
+
+.text-center {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  background-color: #ffffff;
+}
+header .header {
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+header .header .logo {
+  height: 80%;
+  margin-right: 70px;
+}
+header .header .logo img {
+  height: 100%;
+}
+header .header nav {
+  height: 100%;
+}
+header .header nav ul {
+  list-style: none;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .header nav ul li {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 40px;
+  border-bottom: 4px solid #ffffff;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+header .header nav ul li a {
+  color: #464646;
+  font-weight: 600;
+}
+header .header nav ul li:hover {
+  border-bottom: 4px solid #0c7cec;
+}
+header .header nav ul li.active {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  border-bottom: 4px solid #0c7cec;
+}
+header .header nav ul li.active a {
+  color: #0c7cec;
 }

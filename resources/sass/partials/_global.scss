@@ -7,5 +7,30 @@
 
 /* Utilities */
 body {
-    background-color: $primary-color
+    background-color: $back-col;
+    font-family: $font-main
 }
+
+.full-width {
+    width: 100%;
+}
+
+.container {
+    width: 1270px;
+    margin: 0 auto;
+}
+
+.px-10 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.debug {
+    border: 1px solid red;
+}
+
+.text-center {
+    text-align: center;
+}
+
+a {text-decoration: none;}
