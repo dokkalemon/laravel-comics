@@ -33,4 +33,28 @@ body {
     text-align: center;
 }
 
-a {text-decoration: none;}
+a {
+    text-decoration: none;
+}
+
+button {
+    padding: 10px 50px;
+    font-weight: 800;
+    font-family: $font-main;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    &:hover {
+        transform: scale(1.1)
+
+    }
+}
+
+.primary-button {
+    background-color: $primary-color;
+    color: $secondary-text-color;
+
+}
+
+

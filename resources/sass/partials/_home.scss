@@ -1,5 +1,4 @@
 main {
-    height: 2000px;
     background-color: $secondary-color;
     padding-top: 100px;
     .comics-container {
@@ -8,7 +7,7 @@ main {
         padding-top: 50px;
         .card {
             width: calc(100% / 6);
-            height: 400px;
+            margin-bottom: 60px;
             .card-container {
                 height: 100%;
                 width: 100%;
@@ -21,11 +20,15 @@ main {
                 h4 {
                     text-transform: uppercase;
                     color: $secondary-text-color;
-                    font-weight: 400;
+                    font-weight: 100;
+                    font-size: 15px;
                     padding-top: 15px;
 
                 }
             }
+        }
+        .home_button {
+            margin: 20px auto;
         }
     }
 }
