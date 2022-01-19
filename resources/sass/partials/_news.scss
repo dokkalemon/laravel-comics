@@ -1,0 +1,16 @@
+.news-main {
+    background-color: $back-col;
+    padding-top: 120px;
+    height: 100vh;
+    .news-container {
+        h1 {
+            margin-bottom: 10px;
+            color: $primary-text-color;
+        }
+        p {
+            color: $primary-text-color;
+            line-height: 30px;
+
+        }
+    }
+}

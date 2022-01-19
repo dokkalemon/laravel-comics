@@ -199,3 +199,17 @@ footer .footer .social-container .social-icon a {
 footer .footer .social-container .social-icon a:last-child {
   margin-right: 0;
 }
+
+.news-main {
+  background-color: #ffffff;
+  padding-top: 120px;
+  height: 100vh;
+}
+.news-main .news-container h1 {
+  margin-bottom: 10px;
+  color: #464646;
+}
+.news-main .news-container p {
+  color: #464646;
+  line-height: 30px;
+}
