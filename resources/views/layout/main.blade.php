@@ -22,6 +22,7 @@
     <!-- dinamic parts -->
     @yield('main')
     
+    <!--include footer-->
 
 
 
